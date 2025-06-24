@@ -1,4 +1,6 @@
 # Lynkr Technical Assessment
+## MODIFIED INSTRUCTIONS:
+Add a backend/.env file to store your API key (shown in step 2 below)
 
 ## Overview
 
@@ -55,6 +57,8 @@ pip install -r requirements.txt
 ```
 
 **Note:** You'll need to activate the virtual environment each time you work on the backend
+
+**Note:** You'll also need to give your key in `backend/.env`. Create a file and add in `WEATHERSTACK_API_KEY=[your API key]`
 
 ### 3. Frontend Setup
 
